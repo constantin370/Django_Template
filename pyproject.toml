@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "django-5"
+version = "0.1.0"
+description = "Django_5_Template"
+authors = ["Константин Мурадян <constantin37@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.0.1"
+pillow = "^10.2.0"
+pytest = "^7.4.4"
+django-bootstrap5 = "^23.4"
+pytest-django = "4.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
